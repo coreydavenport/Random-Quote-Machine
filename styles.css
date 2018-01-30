@@ -4,6 +4,7 @@
 body {
   width: 100%;
   margin: 0px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2bdb60+0,c2ff89+100 */
 background: #2bdb60; /* Old browsers */
 background: -moz-linear-gradient(left, #2bdb60 0%, #c2ff89 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left, #2bdb60 0%,#c2ff89 100%); /* Chrome10-25,Safari5.1-6 */
@@ -60,5 +61,8 @@ hr {
 }
 
 .btn:hover {
-
+  transform: translateY(3px);
+  box-shadow: none;
+  background-color: #03A541;
+  color: #e2e2e2;
 }
